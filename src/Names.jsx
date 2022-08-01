@@ -1,13 +1,13 @@
 import React from "react";
 
 export const Names = (props) => {
-  console.log("details : ", props.details);
   const getSportsName = (sportList) => {
-    console.log("sportsList:", sportList);
     return sportList.map((item) => {
       return item + " ";
     });
   };
+
+  console.log("name page called");
 
   return (
     <div>
